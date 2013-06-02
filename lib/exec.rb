@@ -1,4 +1,5 @@
 class Exec
+
   attr_accessor :command, :op1_type, :op1_value, :op2_type, :op2_value
   @@commands = [:add, :sub, :div, :mul, :and, :or, :mov, :shr, :shl, :jz, :jn, :jmp, :inc, :dec, :stop, :not]
 
